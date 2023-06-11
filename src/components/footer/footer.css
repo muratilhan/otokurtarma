@@ -1,0 +1,15 @@
+.footer-container{
+    display: flex;
+    width: 100%;
+    background-color: rgb(32, 32, 32);
+    flex-direction: column;
+    color:White;
+    padding: 1rem;
+}
+.footer-container p:first-child{
+    font-size: 24px;
+}
+.footer-container p:nth-child(2) span a{
+    color:orange;
+    text-decoration: none;
+}

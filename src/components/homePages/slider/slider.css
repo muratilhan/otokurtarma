@@ -1,0 +1,57 @@
+.main-slide{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main-slide img{
+    image-rendering: crisp-edges !important;
+    /* veya */
+    image-rendering: pixelated !important;
+
+}
+.slider-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;    
+}
+.carousel .slide{
+    height: fit-content;
+}
+
+.carousel .thumb{
+    width: 5%;
+    height: 50px;
+}
+
+.thumbs{
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+.legend{
+    background-color: rgb(75, 0, 0) !important;
+    color:black !important;
+    font-size: 24px !important;
+    color:white !important;
+}
+
+.sm{
+   display: none;
+}
+.lg{
+    display: flex;
+}
+
+
+
+@media (max-width:768px){
+    .lg{
+        display: none;
+     }
+     .sm{
+         display: flex;
+     }
+}
