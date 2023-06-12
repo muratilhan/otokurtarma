@@ -44,7 +44,16 @@
     font-weight: bold;
 
 }
+.map-container {
 
+  }
+  
+  .map-container iframe{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+
+  }
 
 @media(max-width:768px){
     
@@ -74,4 +83,11 @@
     .contact-main ul h2 li{
         font-size: 18px;
     }
+    .map-container {
+        width: 100%;
+      }
+  .map-container iframe{
+    width: 90%;
+    
+  }
 }

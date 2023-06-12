@@ -1,27 +1,15 @@
-import Map, {NavigationControl, Marker} from 'react-map-gl';
-import maplibregl from 'maplibre-gl';
-import 'maplibre-gl/dist/maplibre-gl.css';
+import { useMemo } from "react";
+import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 import '../maps.css'
 
-  function Maps() {
-    return (
-      <Map className="map" mapLib={maplibregl} 
-          initialViewState={{
-            longitude: 29.5097,
-            latitude: 40.0801,
-            zoom: 14
-          }}
-          style={{width: "100%",height:"300px"}}
-          mapStyle="https://api.maptiler.com/maps/streets/style.json?key=VAcVOX1wWwzkmRS2FNiY"
-        >
-          <NavigationControl position="top-left" />
-          <Marker
-            longitude={29.5097}
-            latitude={40.0801}
-            color='#61db'
-          />
-      </Map>
-    );
-  }
+
+export default function Maps() {
+  return (
+    <div className="map-container">
+      <iframe  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=555&amp;height=555&amp;hl=en&amp;q=%20ineg%C3%B6l%20Osmaniye%20Mahallesi%20Bursa+(Oto%20Kurtarma)&amp;t=p&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+
+    </div>
+  )
+
   
-  export default Maps;
+}
