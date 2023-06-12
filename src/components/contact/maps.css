@@ -44,15 +44,11 @@
     font-weight: bold;
 
 }
-.map-container {
 
-  }
   
   .map-container iframe{
     width: 400px;
     height: 400px;
-    background-color: blue;
-
   }
 
 @media(max-width:768px){
