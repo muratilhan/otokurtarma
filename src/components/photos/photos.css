@@ -72,6 +72,10 @@
         margin-top: 3rem;
 
     }
+    .photos-inner h2{ 
+      font-size: 48px;
+      
+  }
     .content{
         width: 100%;
         background-color: red;

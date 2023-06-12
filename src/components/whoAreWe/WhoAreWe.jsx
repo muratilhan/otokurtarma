@@ -37,7 +37,7 @@ const WhoAreWe = () => {
           <h2>
             <Typewriter
               options={{
-                strings: ["Emre Yücel & Onur Yücel"],
+                strings: ["Emre Yücel","Onur Yücel"],
                 autoStart: true,
                 loop: true,
               }}

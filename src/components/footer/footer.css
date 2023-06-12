@@ -13,3 +13,16 @@
     color:orange;
     text-decoration: none;
 }
+
+@media(max-width: 768px){
+    .footer-container{
+        font-size: 5px;
+        padding: 1.5rem 0;
+    }
+    .footer-container p:first-child{
+        font-size: 20px;
+    }
+    .footer-container p{
+        font-size: 14px;
+    }
+}

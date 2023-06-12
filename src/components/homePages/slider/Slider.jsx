@@ -73,11 +73,17 @@ function Slider() {
               <div className="slide-img">
                 <img src={p.img} alt="" />
               </div>
+              <div className="slider-text">
+               <p>
+               "Her Zaman Yanınızdayız"
+               </p>
+              </div>
             </SwiperSlide>
           ))
         }
       </Swiper>
       <i className="fa-solid fa-arrow-right review-swiper-button-next"></i>
+      
     </div>
   );
 }

@@ -35,7 +35,7 @@
     border-bottom: 1px solid rgb(202, 202, 202);
     display: flex;
     padding-left: 1rem;
-    font-size: 40px;
+    font-size: 26px;
 }
 
 .contact-text{
@@ -45,7 +45,6 @@
 
 }
 
-  
   .map-container iframe{
     width: 400px;
     height: 400px;
@@ -81,9 +80,17 @@
     }
     .map-container {
         width: 100%;
-      }
-  .map-container iframe{
-    width: 90%;
-    
-  }
+    }
+    .map-container iframe{
+        width: 90%;
+        
+    }
+    .contact-main li{
+        font-size: 16px;
+    }
+    .contact-text{
+        font-size: 14px;
+        padding: 2rem 0.5rem;
+        margin-top: 0;
+    }
 }

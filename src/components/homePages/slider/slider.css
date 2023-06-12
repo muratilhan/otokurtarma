@@ -33,7 +33,16 @@
     width: 100%;
 }
 
-
+.slider-text{
+    position: absolute;
+    color:white;
+    z-index: 999;
+    bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
 
 .review-swiper-button-prev,.review-swiper-button-next {
     font-size: 24px;

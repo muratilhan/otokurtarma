@@ -7,7 +7,7 @@ const Contact = () => {
     <div className='contact-container'>
       <div className="contact-main">
           <ul>
-            <h2>İletişim</h2>
+            <h2>İletişim Bilgileri</h2>
               <li>
                 <span><i class="fa-solid fa-phone"></i></span>
                 <p><span>Telefon:</span>5555 555 55 55</p>
