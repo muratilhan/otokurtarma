@@ -33,19 +33,19 @@ function Slider() {
     const sliderPosts = [
         {
             id:"1",
-            img:width > 768 ? res4 : res1,
+            img:res1,
             title:"asdas",
             description:"asdasd"
         },
         {
           id:"1",
-          img:width > 768 ? res5 : res1,
+          img:res2,
           title:"asdas",
           description:"asdasd"
         },
         {
           id:"1",
-          img:width > 768 ? res6 : res1,
+          img:res3,
           title:"asdas",
           description:"asdasd"
         },
