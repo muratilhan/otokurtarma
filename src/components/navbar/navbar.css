@@ -63,7 +63,9 @@ nav {
 		visibility: visible;
 		opacity: 1;
 	}
-
+	header {
+		height: 80px;
+	}
 	header nav {
 		position: fixed;
 		top: -100vh;

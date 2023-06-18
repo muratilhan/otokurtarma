@@ -1,31 +1,26 @@
-import React from 'react'
-import './topbar.css'
-import Typewriter from 'typewriter-effect';
+import React from "react";
+import "./topbar.css";
+import Typewriter from "typewriter-effect";
+
 
 const Topbar = () => {
   return (
-    <div className='topbar-container'>
-        <p>
+    <div className="topbar-container">
+      <p>
+        <span>
+          <i class="fa-solid fa-phone"></i>
+        </span>
         <Typewriter
-          options={{
-              strings: ['Yenice Oto Kurtarma', '7/24 Hizmetinizdeyiz'],
-              autoStart: true,
-              loop: true,
-          }}
+              options={{
+                strings: ["5555 555 55 55"],
+                autoStart: true,
+                loop: true,
+              }}
           />
-        </p>
-        <ul>
-            <li>
-            <i class="fa-brands fa-instagram"></i>
-            </li>
-            <li>
-            <i class="fa-brands fa-facebook-f"></i>
-            </li>
-        </ul>
-
+      </p>
+      <h3>Yenice - İnegöl Oto Kurtarma</h3>
     </div>
+  );
+};
 
-  )
-}
-
-export default Topbar
+export default Topbar;
