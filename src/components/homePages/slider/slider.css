@@ -41,7 +41,7 @@
 
 .review-swiper-button-prev,.review-swiper-button-next {
     font-size: 24px;
-    color: rgb(0, 0, 0) !important;
+    color: rgb(253, 253, 253) !important;
     cursor: pointer;
     position: absolute;
     z-index: 11111;

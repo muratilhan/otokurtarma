@@ -5,6 +5,15 @@
     flex-direction: column;
     padding: 0.3rem;
 
+    animation: topbar-load 0.5s ease-in;
+}
+@keyframes topbar-load{
+    0% {
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
 
 .topbar-container ul{
