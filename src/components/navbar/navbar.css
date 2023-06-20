@@ -12,7 +12,6 @@
 }
 
 :root {
-	--mainColor: hsl(0, 95%, 15%);
 	--mainColorLight: #5767aa;
 	--textColor: #eee;
 }
@@ -23,8 +22,12 @@ header {
 	justify-content: space-between;
 	height: 100px;
 	padding: 0 2rem;
-	background-color: var(--mainColor);
+	background-color: #460000;
 	color: var(--textColor);
+}
+.navbar-container img{
+	width: 100px;
+	cursor: pointer;
 }
 
 nav a {
@@ -94,5 +97,8 @@ nav {
 	nav a {
 		font-size: 1.5rem;
 		
+	}
+	.navbar-container img{
+		width: 70px;
 	}
 }

@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import './navbar.css'
 import { Link } from "react-router-dom";
+import logo from '../../pictures/picturesPage/logo.png'
 function Navbar() {
 	const navRef = useRef();
 
@@ -12,7 +13,7 @@ function Navbar() {
 
 	return (
 		<header className="navbar-container">
-			<h3 >LOGO</h3>
+			<img src={logo} alt="" />
 			<nav ref={navRef}>
 				<Link onClick={showNavbar} to="/"><span className="nav-navigates">Home</span></Link>
 				<Link onClick={showNavbar} to="/whoarewe"><span className="nav-navigates">Biz Kimiz?</span></Link>

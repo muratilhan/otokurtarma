@@ -10,15 +10,15 @@ const Contact = () => {
             <h2>İletişim Bilgileri</h2>
               <li>
                 <span><i class="fa-solid fa-phone"></i></span>
-                <p><span>Telefon:</span>5555 555 55 55</p>
+                <p><span>Telefon:</span>0533-344-86-50 <br /> 0536-722-47-07 </p>
               </li>
               <li>
                 <span><i class="fa-brands fa-instagram"></i></span>
-                <p><span>İnstagram:</span>yeniceotokurtarma</p>
+                <p><span>İnstagram:</span>yenice_otokurtarma_emre</p>
               </li>
               <li>
                 <span><i class="fa-solid fa-envelope"></i></span>
-                <p><span>Adres:</span>yeniceotokurtarma@gmail.com</p>
+                <p><span>Email:</span>Emreyucel016@outlook.com <br /> Onuryucel016@outlook.com </p>
               </li>
               <li>
                 <span><i class="fa-solid fa-location-dot"></i></span>

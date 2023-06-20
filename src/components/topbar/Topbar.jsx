@@ -12,7 +12,7 @@ const Topbar = () => {
         </span>
         <Typewriter
               options={{
-                strings: ["5555 555 55 55"],
+                strings: ["0533-344-86-50","0536-722-47-07"],
                 autoStart: true,
                 loop: true,
               }}
