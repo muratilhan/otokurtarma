@@ -6,8 +6,7 @@
 }
 
 
-.slide-img {
-}
+
 .slide-img img {
     height: 80vh;
     /* object-fit: cover; */
@@ -37,6 +36,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    font-size: 24px;
 }
 
 .review-swiper-button-prev,.review-swiper-button-next {

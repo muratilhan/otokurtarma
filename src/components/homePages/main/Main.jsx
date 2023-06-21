@@ -2,6 +2,7 @@ import React from "react";
 import "./main.css";
 import datas from './data'
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 
 const Main = () => {
@@ -43,12 +44,12 @@ const Main = () => {
           <div className="main-img-container">
             <img className="main-images main-animation" src={item.image} alt="" />
             <div className="main-text main-animation">
-              <h3> {item.title} </h3>
-              <p> {item.description} </p>
             </div>
           </div>
-        ))}
+        ))}				
+
       </div>
+      <p className="main-info"> "<span className="vehicles">Traktör, iş makinesi, minibüs, otomobil, motor</span> vb. araçlar için hizmetlerimiz mevcuttur. Detatlı bilgi için <Link to="/contact"><span>İletişim</span></Link>'e geçiniz."</p>
     </div>
   );
 };

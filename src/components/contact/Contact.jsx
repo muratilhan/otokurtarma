@@ -28,7 +28,7 @@ const Contact = () => {
           <Maps/>
       </div>
       <div className='contact-text'>
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. In qui culpa voluptatum consequuntur neque, suscipit veniam modi fuga nesciunt exercitationem"
+        "Bizlere telefon, mail, sosyal medya ve belirtilen konumdan ulaşabilirsiniz. Herhangi bir dilek, şikayet, önerilerinizi bildirmeyi unutmayınız. Bu sayede sizlere daha iyi hizmet verebiliriz."
       </div>
     </div>
   )
