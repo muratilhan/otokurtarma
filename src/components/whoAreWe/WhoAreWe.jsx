@@ -1,5 +1,4 @@
 import React from "react";
-import bizkimiz3 from "../../pictures/bizkimiz3.jpg";
 import "./whoarewe.css";
 import Typewriter from "typewriter-effect";
 import resim1 from "../../pictures/sliders/mobile1.jpg";
