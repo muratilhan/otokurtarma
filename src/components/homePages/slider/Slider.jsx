@@ -3,9 +3,7 @@ import "./slider.css";
 import res1 from '../../../pictures/sliders/mobile1.jpg'
 import res2 from '../../../pictures/sliders/mobile2.jpg'
 import res3 from '../../../pictures/sliders/mobile3.jpg'
-import res4 from '../../../pictures/sliders/2.jpg'
-import res5 from '../../../pictures/sliders/4.jpg'
-import res6 from '../../../pictures/sliders/5.jpg'
+
 
 import "./slider.css"
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
